@@ -1,0 +1,14 @@
+.image01 {
+    width: 20%;
+    /*display: block;*/
+    margin: auto;
+}
+
+.texte{
+    text-align: center;
+    
+}
+
+.image02{
+    background: green;
+}
