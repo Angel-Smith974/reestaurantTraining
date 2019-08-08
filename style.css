@@ -4,21 +4,17 @@
     margin: auto;
 }
 
-.texte{
+.texte {
     text-align: center;
     margin-top: 100px;
-    
 }
+
 /*
 .image02{
     background: green;
 }
 */
 
-.container{
-    background-image:url(img/bois.jpg);
-}
-
-.chaton{
-    background: black;
+.container {
+    background-image: url(img/bois.jpg);
 }
