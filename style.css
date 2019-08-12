@@ -1,6 +1,7 @@
+/*
 .image01 {
     width: 20%;
-    /*display: block;*/
+   
     margin: auto;
 }
 
@@ -9,12 +10,8 @@
     margin-top: 100px;
 }
 
-/*
-.image02{
-    background: green;
-}
-*/
 
-.container {
+.imagedefond {
     background-image: url(img/bois.jpg);
 }
+*/
