@@ -13,7 +13,8 @@
 
 header {
     background-image: url(img/bois.jpg);
-    height:100vh;
+    /*height:100vh;*/
+    
 
 }
 
@@ -53,9 +54,9 @@ header {
     
     margin-bottom: 50%;
     margin-top: 50%;
-*/
+
     
-}
+}*/
 nav{
     display: inline;
     margin:50%;
@@ -68,6 +69,3 @@ nav{
 }
 */
 
-.navbar {
-    background: 
-}
