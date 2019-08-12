@@ -9,9 +9,51 @@
     text-align: center;
     margin-top: 100px;
 }
-
-
-.imagedefond {
-    background-image: url(img/bois.jpg);
-}
 */
+
+header {
+    background-image: url(img/bois.jpg);
+    height:100vh;
+
+}
+
+.logosoir {
+    width:15%;
+}
+
+.logocerf {
+    width: 20%;
+    margin: auto;
+    
+}
+
+.image01 {
+    width: 100%;
+    margin: auto;
+}
+
+.image02 {
+    width: 100%;
+    margin: auto;
+}
+
+.image03 {
+    width: 100%;
+    margin: auto;
+}
+
+.image04 {
+    width: 100%;
+    margin: auto;
+}
+
+.card-body {
+    
+    margin-bottom: 50%;
+    margin-top: 50%;
+}
+nav{
+    display: inline;
+    margin:50%;
+    /*text-align: center;*/
+}
