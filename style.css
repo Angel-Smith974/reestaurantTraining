@@ -21,11 +21,13 @@ header {
     width:15%;
 }
 
+
 .logocerf {
     width: 20%;
-    margin: auto;
-    
+   margin: auto;
+      
 }
+
 
 .image01 {
     width: 100%;
@@ -46,14 +48,26 @@ header {
     width: 100%;
     margin: auto;
 }
-
+/*
 .card-body {
     
     margin-bottom: 50%;
     margin-top: 50%;
+*/
+    
 }
 nav{
     display: inline;
     margin:50%;
     /*text-align: center;*/
+}
+
+/*
+.row{
+    height:100%;
+}
+*/
+
+.navbar {
+    background: 
 }

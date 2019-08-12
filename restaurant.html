@@ -94,57 +94,62 @@
 
 -->
 
-    <header>
-        <!--
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#"><img src="img/log.png" class="logosoir" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon "></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        -->
-        <nav>
-            <ul>
-                <a><img src="img/log.png" class="logosoir" alt=""></a>
-                <a>our story</a>
-                <a>fare</a>
-                <a>drink</a>
-                <a>contact</a>
-            </ul>
-        </nav>
-        <div>
-            <div class="logocerf">
-                <img src="img/cerf.svg" alt="cerf">
-            </div>
-        </div>
-
-    </header>
+    
 
     <div class="container">
+
+            <header>
+                    <!--
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#"><img src="img/log.png" class="logosoir" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon "></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    -->
+                    <div class="navbar">
+                        <nav>
+                            <ul>
+                                <a><img src="img/log.png" class="logosoir" alt=""></a>
+                                <a href='#our'>our story</a>
+                                <a href="#fare">fare</a>
+                                <a href="#fare">drink</a>
+                                <a href="#contact">contact</a>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div>
+                        <div class="logocerf">
+                            <img src="img/cerf.svg" alt="cerf">
+                        </div>
+                    </div>
+            
+                </header>
+
         <div class="row">
-            <div class="col-3">
+            <div class="col-3 my-auto">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title" id="our">OUR STORY</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
-                    <a href="#">ici le lien</a>
+                    <a href="https://fr.wikipedia.org/wiki/Histoire_de_la_cuisine_fran%C3%A7aise">En savoir plus</a>
                 </div>
             </div>
             <div class="col-9">
@@ -156,25 +161,25 @@
             <div class="col-9">
                 <img src="img/soap.jpg" class="image02" alt="">
             </div>
-            <div class="col-3">
+            <div class="col-3 my-auto">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title" id="fare">FRESH FARE</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                         the
                         card's content.</p>
-                    <a href="#">ici le lien</a>
+                    <a href="https://www.google.com/search?safe=off&ei=MAtRXeP4HqG2gweo57mYCA&q=qu%27est+ce+qu%27un+produit+frais&oq=les+produits+frais+d%C3%A9finition&gs_l=psy-ab.1.0.0i71l8.0.0..30586...0.0..0.0.0.......0......gws-wiz.IgsCXSTkTCA">En savoir plus</a>
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-3">
+            <div class="col-3 my-auto">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title" id="drink">LOCAL DISTILLATION</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                         the
                         card's content.</p>
-                    <a href="#">ici le lien</a>
+                    <a href="http://www.rhum-charrette.com/page-d-exemple/la-distillation/">En savoir plus</a>
                 </div>
             </div>
             <div class="col-9">
@@ -188,10 +193,13 @@
         </div>
     </div>
     <footer>
-        <img src="img/log.png" class="logosoir" alt="">
-        <p>Lorem lit. Nam non voluptatibus corporis itaque et omnis voluptatum el</p>
-        <div class="social">
-            réseau sociaux
+        <div id="contact">
+            <img src="img/log.png" class="logosoir" alt="">
+            <p>3344 west pro street </br> HENRYVILLE, CA 77685</p>
+            <p>0262222458 </br>0692654872</p>
+            <div class="social">
+                réseau sociaux
+            </div>
         </div>
     </footer>
 
